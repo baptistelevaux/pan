@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baskervville:ital@0;1&display=swap');
+
+body{
+	margin: 25px 60px;
+	min-height: calc(100vh - 50px);
+	display: grid;
+	grid-template-rows: auto 1fr auto; 
+	font-family: 'Montserrat', Arial, sans-serif;
+	font-size: 16px;
+	font-weight: 500;
+	color: #be1622;
+}
+
+a{
+	text-decoration: none;
+	color: inherit;
+}
+
+a:hover{
+	opacity: 25%;
+}
+
+/* NAVIGATION */
+
+nav{
+	border-top: 3px solid #be1622;
+	font-size: 18px;
+	text-align: justify;
+	text-align-last: justify;
+}
+
+nav a{
+	font-weight: 600;
+	line-height: 40px;
+	text-transform: uppercase;
+}
+
+nav span{
+	opacity: 0;
+}
+
+/* HEADER */
+
+header h1{
+	margin: 15px 0px 0px 0px;
+	font-size: 60px;
+	font-weight: 600;
+	line-height: 50px;
+}
+
+header span{
+	font-weight: 300;
+}
+
+/* MAIN */
+
+main{
+	margin: 50px 0px 15px 0px;
+	max-width: 850px;
+}
+
+main section{
+	margin-bottom: 35px;
+}
+
+main h2{
+	margin: 0px;
+	font-family: 'Montserrat', Arial, sans-serif;
+	font-weight: 600;
+}
+
+main p{
+	margin-top: 8px;
+	padding-left: 50px;
+	font-family: 'Baskervville', serif;
+	font-size: 20px;
+}
+
+main p.sub{
+	font-family: 'Montserrat', Arial, sans-serif;
+	margin-top: 3px;
+	font-size: 13px;
+}
+
+main a{
+	font-family: 'Montserrat', Arial, sans-serif;
+	font-weight: 600;
+	font-size: 18px;
+}
+
+main img.icons{
+	margin-right: 20px;
+	height: 75px;
+}
+
+main img.caruso{
+	width: 100%;
+	aspect-ratio: 16 / 9;
+	object-fit: cover;
+	background-color: #d6d6d6;
+	border-bottom: 3px solid #be1622;
+}
+
+/* FOOTER */
+
+footer{
+	right: 0;
+	width: 500px;
+	min-height: 22px;
+	display: grid;
+    grid-template-columns: auto auto;
+}
