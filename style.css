@@ -115,7 +115,9 @@ footer{
 /* RESPONSIVE */
 
 @media screen and (max-width: 625px) {
+	body{margin: 25px 10px;}
 	nav{text-align-last: right;}
 	nav a{display: block;}
+	main p{padding-left: 20px;}
 	footer{display: block;}
 }
