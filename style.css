@@ -95,7 +95,7 @@ main img.icons{
 }
 
 main img.caruso{
-	width: 100%;
+    width: 100%;
 	aspect-ratio: 16 / 9;
 	object-fit: cover;
 	background-color: #d6d6d6;
@@ -106,8 +106,16 @@ main img.caruso{
 
 footer{
 	right: 0;
-	width: 500px;
+	max-width: 500px;
 	min-height: 22px;
 	display: grid;
     grid-template-columns: auto auto;
+}
+
+/* RESPONSIVE */
+
+@media screen and (max-width: 625px) {
+	nav{text-align-last: right;}
+	nav a{display: block;}
+	footer{display: block;}
 }
