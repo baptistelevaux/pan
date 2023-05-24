@@ -40,6 +40,28 @@ nav span{
 	opacity: 0;
 }
 
+/* BURGER MENU */
+
+nav.burger {
+	display: none;
+	overflow: hidden;
+	position: relative;
+	margin-bottom: 20px;
+}
+
+a.burger-entrance{
+	cursor: pointer;
+}
+
+nav.burger #myLinks {
+  display: none;
+}
+
+nav.burger a {
+	text-align-last: center;
+	display: block;
+}
+
 /* HEADER */
 
 header h1{
@@ -115,9 +137,9 @@ footer{
 /* RESPONSIVE */
 
 @media screen and (max-width: 625px) {
-	body{margin: 25px 10px;}
-	nav{text-align-last: right;}
-	nav a{display: block;}
+	body{margin: 25px 20px;}
+	nav.classic{display: none;}
+	nav.burger{display: block;}
 	main p{padding-left: 20px;}
 	footer{display: block;}
 }

@@ -20,10 +20,30 @@
         <meta property="og:keywords" content=" " />
     </head>
     <body>
-        <nav>
+        <nav class="classic">
             <a href="lo-studio">Lo<span>-</span>studio</a>
             <a href="progetti">Proggeti</a>
             <a href="pubblicazioni">Pubblicazioni</a>
+        </nav>
+
+        <script>
+            function myFunction() {
+            var x = document.getElementById("myLinks");
+            if (x.style.display === "block") {
+                x.style.display = "none";
+            } else {
+                x.style.display = "block";
+            }
+            }
+        </script>
+
+        <nav class="burger">
+            <a class="burger-entrance" onclick="myFunction()">INDEX</a>
+            <div id="myLinks">
+                <a href="lo-studio">Lo<span>-</span>studio</a>
+                <a href="progetti">Proggeti</a>
+                <a href="pubblicazioni">Pubblicazioni</a>
+            </div>
         </nav>
 
         <header>
