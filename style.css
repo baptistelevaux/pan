@@ -24,6 +24,7 @@ a:hover{
 /* NAVIGATION */
 
 nav{
+	margin-bottom: 20px;
 	border-top: 3px solid #be1622;
 	font-size: 18px;
 	text-align: justify;
@@ -46,7 +47,6 @@ nav.burger {
 	display: none;
 	overflow: hidden;
 	position: relative;
-	margin-bottom: 20px;
 }
 
 a.burger-entrance{
